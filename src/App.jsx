@@ -1,10 +1,22 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
+import { Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/Shared/Navbar/Navbar";
 
 function App() {
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={""} />
+        <Route path="/bmi" element={"hola"} />
+        <Route path="/age" element={""} />
+        <Route path="/clock" element={""} />
+        <Route path="/about" element={""} />
+        <Route path="/contact" />
+      </Routes>
+    </>
+  );
 }
 
 export default App;

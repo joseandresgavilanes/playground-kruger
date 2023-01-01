@@ -1,9 +1,10 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
-  return <h1>Hola</h1>;
+  return <Navbar />;
 }
 
 export default App;

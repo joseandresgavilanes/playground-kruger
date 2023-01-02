@@ -4,7 +4,7 @@ import "./Footer.scss";
 const Footer = () => {
   return (
     <div className="footer">
-      © Kruger Corp. 2022. Transforming Enterprises, Boosting Lives.
+      © Kruger Corp. 2023. Transforming Enterprises, Boosting Lives.
     </div>
   );
 };

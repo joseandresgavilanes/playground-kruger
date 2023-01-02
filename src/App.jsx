@@ -7,6 +7,7 @@ import Footer from "./components/Shared/Footer/Footer";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Clock from "./components/Clock/Clock";
+import AgeCalculator from "./components/AgeCalculator/AgeCalculator";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/bmi" element={""} />
-        <Route path="/age" element={""} />
+        <Route path="/age" element={<AgeCalculator />} />
         <Route path="/clock" element={<Clock />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

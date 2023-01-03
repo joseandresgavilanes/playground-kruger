@@ -26,36 +26,38 @@ const Calculator = () => {
   //   }
 
   return (
-    <div className="container">
-      <h1>BMI Calculator</h1>
-      <div class="row">
-        <input
-          type="range"
-          min="20"
-          max="200"
-          value={weight}
-          //   value="20"
-          onChange={onChange1}
-          id="weight"
-        />
-        <span id="weight-val">{weight} kg</span>
-      </div>
-      <div class="row">
-        <input
-          type="range"
-          min="100"
-          max="250"
-          value={height}
-          //   value="100"
-          onChange={onChange2}
-          id="height"
-        />
-        <span id="height-val">{height} cm</span>
-      </div>
+    <div className="bmi__calculator">
+      <div className="container">
+        <h1>BMI Calculator</h1>
+        <div class="row">
+          <input
+            type="range"
+            min="20"
+            max="200"
+            value={weight}
+            //   value="20"
+            onChange={onChange1}
+            id="weight"
+          />
+          <span id="weight-val">{weight} kg</span>
+        </div>
+        <div class="row">
+          <input
+            type="range"
+            min="100"
+            max="250"
+            value={height}
+            //   value="100"
+            onChange={onChange2}
+            id="height"
+          />
+          <span id="height-val">{height} cm</span>
+        </div>
 
-      <div class="display">
-        <p id="result">{finalResult.toFixed(2)} </p>
-        <p id="category"> </p>
+        <div class="display">
+          <p id="result">{finalResult.toFixed(2)} </p>
+          <p id="category"> </p>
+        </div>
       </div>
     </div>
   );

@@ -13,17 +13,33 @@ class AgeStats extends Component {
     let months = Math.floor(days / 31);
     days -= months * 31;
 
-    return `${years} years, ${months} months, ${days} days!`;
+    return (
+      <>
+        <div className="age__stats-container__item">
+          {years}
+          <p className="age__stats-container__item-text">Years</p>
+        </div>
+        <div className="age__stats-container__item">
+          {months}
+          <p className="age__stats-container__item-text">Years</p>
+        </div>
+        <div className="age__stats-container__item">
+          {days}
+          <p className="age__stats-container__item-text">Years</p>
+        </div>
+      </>
+    );
   };
   render() {
     return (
-      <div>
-        <h3>{this.props.date}</h3>
-        <h4>Congrats on {this.calculateAge(this.props.date)}!</h4>
+      <div className="age__stats">
+        <h4 className="age__stats-container">
+          {this.calculateAge(this.props.date)}
+        </h4>
         <img
           src="https://github.com/nids98/Age-Calculator/blob/master/src/assets/party-popper.jpg?raw=true"
           alt="Yayyy"
-          className="party-popper"
+          className="party-popper age__stats-img"
         />
       </div>
     );

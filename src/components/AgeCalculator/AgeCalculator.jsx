@@ -20,16 +20,22 @@ class AgeCalculator extends Component {
   render() {
     return (
       <div className="age">
-        <Form inline>
-          <h2>What's your birthday</h2>
+        <h2 className="age__title">Age Calculator</h2>
+        <Form inline className="age__form">
           <FormControl
+            className="age__form-calendar"
             type="date"
             onChange={(event) => this.setState({ newDate: event.target.value })}
           />{" "}
-          <Button onClick={() => this.changeBirthday()}>Submit</Button>
+          <Button
+            onClick={() => this.changeBirthday()}
+            className="age__form-btn"
+          >
+            Calculate
+          </Button>
         </Form>
         {this.state.showStats ? (
-          <div className="fade age-stats">
+          <div className="fade age-stats age__result">
             <AgeStats date={this.state.birthday} />
           </div>
         ) : (

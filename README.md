@@ -1,10 +1,11 @@
 <div align="center">
-  <img alt="logo"  src="../pokedex-frontend/public/images/Home/smiley.png">
+  <img alt="logo"  src="../playground-kruger/public/smiley.png" style="margin-right: 10px" >
+  <img alt="logo"  src="../playground-kruger/public/logo.png" width="120px" >
 </div>
 
-<h3 align="center">
+<h1 align="center">
     Playground Kruger
-</h3>
+</h1>
 
 <p align="center">
   <a href="#about-the-project">About The Project</a> |
@@ -16,7 +17,7 @@
 </p>
 
 <div align="center">
-  <img alt="logo"  src="../preview.png">
+  <img alt="logo"  src="../playground-kruger/public/preview.png">
 </div>
 
 </br>
@@ -36,18 +37,16 @@
 
 <h2 id="about-the-project" > ⏰📈 About The Project </h2>
 
-1. Show all Pokémons.
-2. Show Pokémons by ID.
-3. Show Pokémons by Category.
-4. Show Pokémon's details.
-   5.Challenge developed in order to apply front-end knowledges
-   using [PokéAPI](https://pokeapi.co/) - **The RESTful Pokémon API**.
+1. Show all we've done in KrugerStar (React).
+2. Show more about ourselves.
+3. Show contact info.
+4. Show our CSS abilities.
 
 ## Next steps:
 
-- [ ] Pagination;
+- [ ] Fix bugs;
 - [ ] Dark theme;
-- [ ] Favorites Pokémons;
+- [ ] Full Responsive;
 
 ---
 
@@ -57,9 +56,9 @@ First, run the development server:
 
 ```bash
 # Clone Repository
-$ git clone https://github.com/joseandresgavilanes/pokedex-fullstack.git
+$ git clone https://github.com/joseandresgavilanes/playground-kruger.git
 # Go to server folder
-$ cd pokedex-frontend
+$ cd playground-kruger
 # Install Dependencies
 $ npm i
 # Run Aplication with ViteJS

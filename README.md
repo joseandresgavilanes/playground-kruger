@@ -112,6 +112,7 @@ The following tools were used in the construction of the project:
 - **[ReactJS](https://reactjs.org)**
 - **[Javascript](https://www.javascript.com/)**
 - **[ViteJS](https://vitejs.dev/)**
+- **[SCSS](https://sass-lang.com/)**
 
 ---
 

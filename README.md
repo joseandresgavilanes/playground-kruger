@@ -22,7 +22,7 @@
 <h4 align="center">
 	🚧 Status: Building 🚀  🚧
 
-  <p align="center">https://fantastic-naiad-78a9d5.netlify.app/</p>
+  <p align="center">https://playground-kruger.vercel.app/</p>
 
 </h4>
 

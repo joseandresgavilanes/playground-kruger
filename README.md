@@ -15,6 +15,10 @@
   <a href="#license">License</a>
 </p>
 
+<div align="center">
+  <img alt="logo"  src="../preview.png">
+</div>
+
 </br>
 
 ---
